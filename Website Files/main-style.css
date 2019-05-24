@@ -1,0 +1,19 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #ffffff;
+}
+
+.navbar {
+    background: #f9f9f9;
+}
+
+/*you changed the color and hover color
+in the bootstrap.min.cs file on line 6, col 7517
+should probably figure out how to do this by
+overriding instead*/
+
+
+h2 {
+    color: #D19354;
+}
