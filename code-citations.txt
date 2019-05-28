@@ -1,0 +1,9 @@
+A document sourcing significant code snippets
+
+File: main-js.js 
+Comment Header: Switch between images based on screen size
+Original Code: https://stackoverflow.com/a/36402526
+
+File: home.html + main-style.css
+Comment Header: Overlay mask
+Original Code: https://websitesetup.org/bootstrap-tutorial-for-beginners/

@@ -42,10 +42,14 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/carousel-pt1.svg" class="d-block w-100" alt="...">
+            <div class="carousel-image-1">
+              <img src="images/carousel-pt1.svg" class="d-block w-100" alt="...">
+            </div>
           </div>
           <div class="carousel-item">
-            <img src="images/carousel-pt1.svg" class="d-block w-100" alt="...">
+            <div class="carousel-image-2">
+              <img src="images/carousel-pt2.svg" class="d-block w-100" alt="...">
+            </div>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -58,14 +62,64 @@
         </a>
       </div>
 
-      <!--Lab Header and Description-->
-    <div class="lab_descr">
-        <h2><strong>At Clemson's HFSE Lab</strong></h2>
+      <!--Lab Header and Description Container-->
+    <div class="container">
+      <div class="row mx-0 mx-sm-n5 my-5">
+        <div class="col">
+            <h2><strong>At Clemson's HFSE Lab</strong></h2>
+        </div>
+        <div class="w-100"></div>
+        <div class="col">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+              Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+              Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, 
+              imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+              Cras dapibus. Vivamus elementum semper nisi.</p>
+        </div>
+      </div>
     </div>
-      <!--Team Picture and Icon List with Links-->
+
+    <!--Team Picture and Icon List with Links-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md px-0">
+            <!--Overlay Mask - Included in Code Citation-->
+          <div class="overlay"></div>
+            <img src="images/proto-team-picture.svg" class="d-block w-100">
+        </div>
+        <div class="col-md px-0">
+          <img src="images/decorative-bkgr.svg" class="d-block w-100">
+            <!----<div class="row">
+                <div class="col">
+                  Icon Here
+                </div>
+                <div class="col">
+                  Text Here
+                </div>
+                <div class="w-100"></div>
+                <div class="col">
+                    Icon2 Here
+                  </div>
+                  <div class="col">
+                    Text2 Here
+                  </div>
+                  <div class="w-100"></div>
+                  <div class="col">
+                      Icon3 Here
+                    </div>
+                    <div class="col">
+                      Text3 Here
+                    </div>
+            </div>-->
+        </div>
+      </div>
+    </div>
+
 
     <script src="jquery-3.4.1.min.js"></script>
     <script src="popper.min.js"></script>
     <script src="bootstrap-4.3.1/js/bootstrap.min.js"></script>
+    <script src="main-js.js"></script>
 </body>
 </html>

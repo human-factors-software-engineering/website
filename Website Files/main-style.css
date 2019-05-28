@@ -36,3 +36,17 @@ body {
 h2 {
     color: #d19354;
 }
+
+p {
+    color: #6e6964;
+}
+
+/*Overlay Mask - Included in Code Citation*/
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+    background: rgba(231, 128, 25, 0.68);
+}
