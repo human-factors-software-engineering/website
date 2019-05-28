@@ -4,16 +4,35 @@ body {
     background: #ffffff;
 }
 
-.navbar {
+/*----------Navbar Customization----------*/
+/*---Notes: the 110.100.105.9 rgb = 6e6964*/
+.navbar-custom {
     background: #f9f9f9;
+    font-weight: bold;
 }
 
-/*you changed the color and hover color
-in the bootstrap.min.cs file on line 6, col 7517
-should probably figure out how to do this by
-overriding instead*/
+.navbar-custom .navbar-text {
+    color: rgb(110,100,105,0.9);
+}
 
+.navbar-custom .navbar-nav .nav-link {
+    color: rgb(110,100,105,0.9);
+}
 
+.navbar-custom .nav-item.active .nav-link {
+    color: #d19354;
+}
+
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #d19354;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(110, 105, 100)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+/*-----------Text Styling-----------*/
 h2 {
-    color: #D19354;
+    color: #d19354;
 }
