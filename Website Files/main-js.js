@@ -12,3 +12,5 @@ function setImages() {
 
 $(window).on('resize', setImages);
 setImages();
+
+/*Switching icons based on screen size*/

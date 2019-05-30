@@ -50,3 +50,22 @@ p {
 	top: 0;
     background: rgba(231, 128, 25, 0.68);
 }
+
+/*-------Team Picture and Icons-----*/
+/* .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}
+.caption h3 {
+    color: #ffffff;
+}
