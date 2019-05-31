@@ -41,6 +41,8 @@ p {
     color: #6e6964;
 }
 
+/*==============Home Page CSS===============================*/
+
 /*Overlay Mask - Included in Code Citation*/
 .overlay {
 	position: absolute;
@@ -67,3 +69,19 @@ p {
 	top: 0;
     color: #ffffff
 }
+
+/*==============People Page CSS==========================*/
+.banner {
+    height: 150px;
+    width: 100%;
+    background-image: url(images/people-page-imgs/no-picture-banner.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h2 {
+    color: #ffffff;
+}
+
+/*--------Icons with Links Behavior-----------*/
+/*Want the icons to change to gray when hovered over*/
