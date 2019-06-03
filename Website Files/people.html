@@ -34,6 +34,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="gitHub"></i></a>
+                      </li>
             </ul>
         </div>
     </nav>
@@ -48,36 +51,47 @@
         </div>    
     </header>
 
+    <!--Team Profile Container-->
+    <!--Holy Mackrel, this is a large container-->
     <div class="container">
         <div class="row mx-0 mx-sm-n5 my-5 justify-content-center justify-content-md-start">
+            <!--Col-5 for small screens, it will keep the picture from shrinking too much, col-md-3/col-lg-2 for medium->large screens, the picture will sit to the left of the text-->
             <div class="col col-5 col-md-3 col-lg-2 border">
                 <div class="people-picture">
                     <img src="images/people-page-imgs/jacob-bannon-proto-img.jpg" class="img-fluid d-block w-100 rounded-circle" height="100" width="100"> 
                 </div>
             </div>
+            <!--Col-12 will cause it to span the full width, everything will stack, col-md-9/col-lg-10 for medium->large screens, everything will sit to the right of the picture-->
             <div class="col col-12 col-md-9 col-lg-10 border">
                 <div class="written-content">
 
-                    <div class="row justify-content-center justify-content-sm-start">
+                    <div class="row justify-content-center justify-content-md-start">
                         <!--Name-->
-                        <div class="col-auto border">
+                        <!--Col-sm-5 will keep the name centered with a small screen, col-lg-auto will keep the links and name the same distance from each other with a large screen-->
+                        <div class="col-auto col-sm-5 col-lg-auto border">
                             <div class="names">
                                 <h2>Jacob Bannon</h2>
                             </div>
                         </div>
-                        <div class="col-auto col-md-7 border">
+                        <!--Col-md-7 makes it so the web-git-links stick to the right of the name when the screen gets of a medium size-->
+                        <div class="col-12 col-md-7 border">
                             <div class="web-git-links">
 
                                 <!--Link Icons-->
                                 <div class="row">
-                                    <div class="col col-sm-2 my-2 border">
+                                    <!--Col-md-2 keeps the icons small and close to each other when every element is beside each other-->
+                                    <!--Col has the icons take up the available space when every element is centered-->
+                                    <div class="col col-md-2 border">
                                         <div class="web-link-icon">
-                                            <img src="images/people-page-imgs/web-icon-orange.svg" class="d-block w-100" height="25" width="25">
+                                            <a class="nav-link" href="#"><i class="profWebSite"></i></a>
+                                            <!-- <img src="images/people-page-imgs/web-icon-orange.svg" class="d-block w-100" height="25" width="25"> -->
                                         </div>
                                     </div>
-                                    <div class="col col-sm-2 my-2 border">
+            
+                                    <div class="col col-md-2 border">
                                         <div class="git-link-icon">
-                                            <img src="images/github-logo-small-orange.svg" class="d-block w-100" height="25" width="25">
+                                            <a class="nav-link" href="#"><i class="profGitHub"></i></a>
+                                            <!-- <img src="images/github-logo-small-orange.svg" class="d-block w-100" height="25" width="25"> -->
                                         </div>
                                     </div>
                                 </div>

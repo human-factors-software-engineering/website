@@ -74,7 +74,7 @@ p {
 .banner {
     height: 150px;
     width: 100%;
-    background-image: url(images/people-page-imgs/no-picture-banner.svg);
+    background-image: url("images/people-page-imgs/no-picture-banner.svg");
     background-size: cover;
     background-position: center;
 }
@@ -85,3 +85,47 @@ p {
 
 /*--------Icons with Links Behavior-----------*/
 /*Want the icons to change to gray when hovered over*/
+.profGitHub {
+    background: url("images/github-logo-small-orange.svg");
+    height: 1.5rem;
+    width: 1.5rem;
+    display: block;
+}
+
+.profGitHub:hover {
+    background: url("images/github-logo-small-gray.svg");
+    height: 1.5rem;
+    width: 1.5rem;
+    display: block;
+}
+
+.profWebSite {
+    background: url("images/people-page-imgs/web-icon-orange.svg");
+    height: 1.5rem;
+    width: 1.5rem;
+    display: block;
+}
+
+.profWebSite:hover {
+    background: url("images/people-page-imgs/web-icon-gray.svg");
+    height: 1.5rem;
+    width: 1.5rem;
+    display: block;
+}
+
+/*-----------GitHub Icon for Homepage*/
+.gitHub {
+    background: url("images/github-logo-small-gray.svg");
+    height: 1.55rem;
+    width: 1.55rem;
+    display: block;
+    margin-left: 15%;
+}
+
+.gitHub:hover {
+    background: url("images/github-logo-small-orange.svg");
+    height: 1.55rem;
+    width: 1.55rem;
+    display: block;
+    margin-left: 15%;
+}
