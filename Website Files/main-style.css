@@ -85,7 +85,7 @@ p {
 
 /*--------Icons with Links Behavior-----------*/
 /*Want the icons to change to gray when hovered over*/
-.profGitHub {
+/* .profGitHub {
     background: url("images/github-logo-small-orange.svg");
     height: 1.5rem;
     width: 1.5rem;
@@ -111,7 +111,7 @@ p {
     height: 1.5rem;
     width: 1.5rem;
     display: block;
-}
+} */
 
 /*-----------GitHub Icon for Homepage*/
 .gitHub {
