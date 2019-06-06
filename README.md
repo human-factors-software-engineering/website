@@ -18,7 +18,7 @@ James Dominic (November 2018-Present)
 
 Colton Smith (November 2018-Present)
 
-Rafeael DeJesus (May 2019-Present)
+Rafael DeJesus (May 2019-Present)
 
 Jada Houser (May 2019-Present)
 
