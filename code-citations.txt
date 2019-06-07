@@ -11,3 +11,4 @@ Original Code: https://websitesetup.org/bootstrap-tutorial-for-beginners/
 Comment Header: Hide/unhide publications list
 File: main-js.js + publica.html (in all triangle button img tags)
 Original Code: https://css-tricks.com/snippets/javascript/showhide-element/
+Original Code for Small Hack: https://stackoverflow.com/questions/21852932/javascript-onclick-requires-two-clicks
