@@ -107,32 +107,26 @@ p {
     color: #d19354;
 }
 
-/*--------Icons with Links Behavior-----------*/
-/*Want the icons to change to gray when hovered over*/
-/* .profGitHub {
-    background: url("images/github-logo-small-orange.svg");
-    height: 1.5rem;
-    width: 1.5rem;
-    display: block;
+/*==============Publications Page CSS====================*/
+
+.dropdown-year {
+
 }
 
-.profGitHub:hover {
-    background: url("images/github-logo-small-gray.svg");
-    height: 1.5rem;
-    width: 1.5rem;
-    display: block;
+.dropdown-year h3 {
+    color: #d19354;
 }
 
-.profWebSite {
-    background: url("images/people-page-imgs/web-icon-orange.svg");
-    height: 1.5rem;
-    width: 1.5rem;
-    display: block;
+.dropdown-year a {
+    color: #d19354;
+    text-decoration-line: none;
 }
 
-.profWebSite:hover {
-    background: url("images/people-page-imgs/web-icon-gray.svg");
-    height: 1.5rem;
-    width: 1.5rem;
+.dropdown-year a:hover {
+    color: #6e6964;
+    text-decoration-line: none;
+}
+
+.dropdown-publicas {
     display: block;
-} */
+}

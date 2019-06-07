@@ -1,4 +1,5 @@
-/*Switching images based on screen size - code snippet edited from https://stackoverflow.com/a/36402526*/
+/*Switching images based on screen size*/ 
+/*Code snippet edited from https://stackoverflow.com/a/36402526*/
 var image1 =  $('.carousel-image-1').find("img");
 var image2 =  $('.carousel-image-2').find("img");
 
@@ -31,4 +32,22 @@ function mouseOnG(gitIcon) {
 
 function mouseOffG(gitIcon) {
   gitIcon.src = 'images/github-logo-small-orange.svg';
+}
+
+/*Hide/unhide publications list*/
+/*Code snippet edited and expanded on from https://css-tricks.com/snippets/javascript/showhide-element/*/
+function hide_unhide(className, triButton, yearClass){
+  var actualCN = document.getElementsByClassName(className)[0];
+  var actualYearCl = document.getElementsByClassName(yearClass)[0];
+
+  if(actualCN.style.display == 'block') {
+    actualCN.style.display = 'none';  
+    triButton.src = 'images/publicas-page-imgs/tr-button-g-up.svg';
+    $(actualYearCl).css('color','#6e6964');
+  }
+  else {
+    actualCN.style.display = 'block';
+    triButton.src = 'images/publicas-page-imgs/tr-button-o-down.svg';
+    $(actualYearCl).css('color','#d19354');
+  }
 }
