@@ -127,10 +127,6 @@ p {
     text-decoration-line: none;
 }
 
-.dropdown-publicas1 {
-    display: block;
-}
-
-.dropdown-publicas2 {
+.dropdown-publicas1, .dropdown-publicas2, .dropdown-publicas3, .dropdown-publicas4, .dropdown-publicas5, .dropdown-publicas6 {
     display: block;
 }
