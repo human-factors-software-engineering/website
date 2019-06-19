@@ -37,18 +37,18 @@ function mouseOffG(gitIcon) {
 /*Hide/unhide publications list*/
 /*Code snippet edited and expanded on from https://css-tricks.com/snippets/javascript/showhide-element/*/
 /*Code hack for getting the button to need only one click from https://stackoverflow.com/questions/21852932/javascript-onclick-requires-two-clicks*/
-function hide_unhide(className, triButton, yearClass){
-  var actualCN = document.getElementsByClassName(className)[0];
-  var actualYearCl = document.getElementsByClassName(yearClass)[0];
+// function hide_unhide(className, triButton, yearClass){
+//   var actualCN = document.getElementsByClassName(className)[0];
+//   var actualYearCl = document.getElementsByClassName(yearClass)[0];
 
-  if(actualCN.offsetWidth > 0 || actualCN.offsetHeight > 0) {
-    actualCN.style.display = 'none';  
-    triButton.src = 'images/publicas-page-imgs/tr-button-g-up.svg';
-    $(actualYearCl).css('color','#6e6964');
-  }
-  else {
-    actualCN.style.display = 'block';
-    triButton.src = 'images/publicas-page-imgs/tr-button-o-down.svg';
-    $(actualYearCl).css('color','#d19354');
-  }
-}
+//   if(actualCN.offsetWidth > 0 || actualCN.offsetHeight > 0) {
+//     // actualCN.style.display = 'none';
+//     // triButton.src = 'images/publicas-page-imgs/tr-button-g-up.svg';
+//     $(actualYearCl).css('color','#6e6964');
+//   }
+//   else {
+//     // actualCN.style.display = 'block';
+//     // triButton.src = 'images/publicas-page-imgs/tr-button-o-down.svg';
+//     $(actualYearCl).css('color','#d19354');
+//   }
+// }

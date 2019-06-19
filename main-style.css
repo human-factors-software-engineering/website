@@ -45,6 +45,12 @@ p {
     color: #6e6964;
 }
 
+/* Spacing test */
+/* @media (min-width: 768px){
+    .forceTfive {
+        width: 25px !important;
+    }} */
+
 /*==============Home Page CSS===============================*/
 
 /*Overlay Mask - Included in Code Citation*/
@@ -138,4 +144,22 @@ p {
 
 .dropdown-publicas1, .dropdown-publicas2, .dropdown-publicas3, .dropdown-publicas4, .dropdown-publicas5, .dropdown-publicas6 {
     display: block;
+    opacity: 1;
+    transition: all 0.6s ease-out;
+}
+
+.hide {
+    transition: all 0.6s ease-out;
+    opacity: 0;
+}
+
+.bttn19, .bttn18, .bttn17, .bttn16, .bttn15, .bttn14 {
+    -moz-transition: tranform .4s;
+    -webkit-transition: transform .4s;
+    transition: transform .4s;
+}
+
+.closedBttn1, .closedBttn2, .closedBttn3, .closedBttn4, .closedBttn5, .closedBttn6 {
+    transform: rotate(-180deg);
+    filter: inverst(.5);
 }
