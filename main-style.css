@@ -112,6 +112,16 @@ p {
     font-size: 10pt;
 }
 
+.text-copy a {
+    color: #d19354;
+}
+
+.text-copy a:hover {
+    color: #6e6964;
+    text-decoration-line: none;
+}
+
+
 /*==============People Page CSS==========================*/
 
 .section-text {
