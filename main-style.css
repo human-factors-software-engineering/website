@@ -164,13 +164,13 @@ p {
     opacity: 0;
 }
 
-.bttn19, .bttn18, .bttn17, .bttn16, .bttn15, .bttn14 {
+.bttn19, .bttn18, .bttn17, .bttn16, .bttn15, .bttn14, .bttn20 {
     -moz-transition: tranform .4s;
     -webkit-transition: transform .4s;
     transition: transform .4s;
 }
 
-.closedBttn1, .closedBttn2, .closedBttn3, .closedBttn4, .closedBttn5, .closedBttn6 {
+.closedBttn1, .closedBttn2, .closedBttn3, .closedBttn4, .closedBttn5, .closedBttn6, .closedBttn7 {
     transform: rotate(-180deg);
     filter: inverst(.5);
 }
