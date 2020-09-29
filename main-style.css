@@ -34,11 +34,8 @@ body {
 }
 
 /*-----------Text Styling-----------*/
-h2 {
-    color: #d19354;
-}
 
-h3 {
+h2, h3, h4 {
     color: #d19354;
 }
 
@@ -105,9 +102,7 @@ p {
     background: #f9f9f9;
     width: 100%;
     height: 100px;
-    left: 0;
-    bottom: 0;
-    position: fixed;
+    position: relative;
 }
 
 .footer-text {
