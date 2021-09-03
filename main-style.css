@@ -21,12 +21,12 @@ body {
 }
 
 .navbar-custom .nav-item.active .nav-link {
-    color: #d19354;
+    color: #F56600;
 }
 
 .navbar-custom .nav-item:focus .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #d19354;
+    color: #F56600;
 }
 
 .navbar-custom .navbar-toggler-icon {
@@ -115,7 +115,7 @@ p {
 }
 
 .text-copy a:hover {
-    color: #6e6964;
+    color: #F56600;
     text-decoration-line: none;
 }
 
@@ -131,7 +131,7 @@ p {
 }
 
 .bios a:hover {
-    color: #6e6964;
+    color: #F56600;
     text-decoration-line: none;
 }
 
@@ -142,12 +142,12 @@ p {
 }
 
 .dropdown-year a {
-    color: #d19354;
+    color: #522D80;
     text-decoration-line: none;
 }
 
 .dropdown-year a:hover {
-    color: #6e6964;
+    color: #522D80;
     text-decoration-line: none;
 }
 
