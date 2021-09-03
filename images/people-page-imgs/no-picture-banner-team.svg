@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="960" height="563" viewBox="0 0 960 563">
   <defs>
     <clipPath id="clip-path">
-      <rect id="Rectangle_25" data-name="Rectangle 25" width="960" height="400" transform="translate(960 1285)" fill="rgba(132, 130, 130, 0.26)"/>
+      <rect id="Rectangle_25" data-name="Rectangle 25" width="960" height="200" transform="translate(960 1285)" fill="rgba(132, 130, 130, 0.26)"/>
     </clipPath>
     <clipPath id="clip-path-2">
       <rect width="960" height="855" fill="none"/>
@@ -416,6 +416,6 @@
         </g>
       </g>
     </g>
-    <rect id="Rectangle_14" data-name="Rectangle 14" width="960" height="400" transform="translate(960 1285)" fill="rgba(132, 130, 130, 0.26)"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="960" height="200" transform="translate(960 1285)" fill="rgba(132, 130, 130, 0.26)"/>
   </g>
 </svg>
