@@ -151,7 +151,7 @@ p {
     text-decoration-line: none;
 }
 
-.dropdown-publicas1, .dropdown-publicas2, .dropdown-publicas3, .dropdown-publicas4, .dropdown-publicas5, .dropdown-publicas6 {
+.dropdown-publicas1, .dropdown-publicas2, .dropdown-publicas3, .dropdown-publicas4, .dropdown-publicas5, .dropdown-publicas6, .dropdown-publicas7 {
     display: block;
     opacity: 1;
     transition: all 0.6s ease-out;
@@ -162,7 +162,7 @@ p {
     opacity: 0;
 }
 
-.bttn19, .bttn18, .bttn17, .bttn16, .bttn15, .bttn14, .bttn20 {
+.bttn19, .bttn18, .bttn17, .bttn16, .bttn15, .bttn14, .bttn20, .bttn22 {
     -moz-transition: tranform .4s;
     -webkit-transition: transform .4s;
     transition: transform .4s;
