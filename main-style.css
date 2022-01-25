@@ -168,7 +168,7 @@ p {
     transition: transform .4s;
 }
 
-.closedBttn1, .closedBttn2, .closedBttn3, .closedBttn4, .closedBttn5, .closedBttn6, .closedBttn7 {
+.closedBttn1, .closedBttn2, .closedBttn3, .closedBttn4, .closedBttn5, .closedBttn6, .closedBttn7, .closedBttn21, .closedBttn22 {
     transform: rotate(-180deg);
     filter: inverst(.5);
 }
