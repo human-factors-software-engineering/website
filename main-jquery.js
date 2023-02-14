@@ -4,6 +4,12 @@
 //https://stackoverflow.com/questions/41412764/rotate-an-image-180-degrees-on-click-with-jquery-with-animation/41412775
 
 $(document).ready(function() {
+    $(".toggle23").click(function() {
+        $(".bttn23").toggleClass('closedBttn23');
+    });
+});
+
+$(document).ready(function() {
     $(".toggle22").click(function() {
         $(".bttn22").toggleClass('closedBttn22');
     });
